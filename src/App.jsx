@@ -4,15 +4,15 @@ import uuid4 from "uuid4";
 import useEntity from "./hooks/useEntity";
 import initialData from "./assets/dummy__data.json";
 import DataViewComponent from "./component/data-view";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function App() {
   const [data, setData] = useState(initialData);
   const { addEntity, deleteEntity, updateEntity } = useEntity(setData);
 
-  useEffect(() => {
-    console.log("Entites changed", { data });
-  }, [data]);
+  // useEffect(() => {
+  //   console.log("Entites changed", { data });
+  // }, [data]);
 
   return (
     <div className="container mx-auto h-full flex flex-col">
