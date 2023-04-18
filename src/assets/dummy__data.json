@@ -1,0 +1,89 @@
+[
+  {
+    "title": "address",
+    "type": "object",
+    "isRequired": "false",
+    "entries": [
+      {
+        "title": "home",
+        "type": "string",
+        "isRequired": "false",
+        "entries": [],
+        "id": "393d2513-7dbf-405d-a5ea-63a2d925bf27"
+      },
+      {
+        "title": "street",
+        "type": "string",
+        "isRequired": "false",
+        "entries": [],
+        "id": "f5ee4438-dfca-4486-b07f-95d7beffd9e2"
+      },
+      {
+        "title": "locality",
+        "type": "string",
+        "isRequired": "false",
+        "entries": [],
+        "id": "9921ee65-f02f-4814-89f3-c22946b39fae"
+      },
+      {
+        "title": "city",
+        "type": "string",
+        "isRequired": "false",
+        "entries": [],
+        "id": "4ccd7de4-159d-4f30-95c6-88516983be01"
+      }
+    ],
+    "id": "dc71eb01-a8cc-44d1-abbd-d42a12788f66"
+  },
+  {
+    "title": "product",
+    "type": "object",
+    "isRequired": "true",
+    "entries": [
+      {
+        "title": "brand",
+        "type": "string",
+        "isRequired": "false",
+        "entries": [],
+        "id": "d03aa77e-54b6-4149-983b-c789ab6e2fef"
+      },
+      {
+        "title": "description",
+        "type": "string",
+        "isRequired": "false",
+        "entries": [],
+        "id": "967b28a4-88fd-4c59-95c2-1845f24f18a4"
+      },
+      {
+        "title": "quantity",
+        "type": "integer",
+        "isRequired": "false",
+        "entries": [],
+        "id": "6fb01fc9-7b03-40c0-96c8-66caf40a81e2"
+      }
+    ],
+    "id": "34cbbfb1-6b51-4d10-8bdc-fec32a265b51"
+  },
+  {
+    "title": "user",
+    "type": "object",
+    "isRequired": "true",
+    "entries": [
+      {
+        "title": "firstName",
+        "type": "string",
+        "isRequired": "true",
+        "entries": [],
+        "id": "03d59e5e-4749-458a-bd69-8dbe7bd59213"
+      },
+      {
+        "title": "lastName",
+        "type": "string",
+        "isRequired": "false",
+        "entries": [],
+        "id": "3127a7ff-f8c9-42b9-9c99-2dc2618b945c"
+      }
+    ],
+    "id": "a44107ed-0e6b-499f-91f5-e092e7f462b8"
+  }
+]
